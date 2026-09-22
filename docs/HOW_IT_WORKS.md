@@ -85,8 +85,10 @@ An app registration or a successful personal-account connection does not establi
 organizational approval. Microsoft Conditional Access and consent policies still
 apply. A blocked sign-in should be reviewed by the organization's IT team.
 
-The source repository is private. Read-only access can be arranged with Eric for
-review; this public repository does not grant access to the code or an installation.
+The [self-hosted source](https://github.com/R3dTh3Ging3r-s-Creations/Ezra-Mail-Self-Hosted)
+is available for inspection and experimental use under AGPL-3.0-only. Its
+[setup guide](https://github.com/R3dTh3Ging3r-s-Creations/Ezra-Mail-Self-Hosted/blob/main/docs/DEPLOYMENT.md)
+uses independently configured accounts, app registrations and a model you control.
 
 ## Development and current limits
 

@@ -82,9 +82,12 @@ there is still more work to do on device testing, installation, and everyday
 usability. It is a personal project with no support SLA or promise of suitability
 for business use.
 
-This repository is the public introduction and policy reference. **The application
-source is private**, and this page does not provide a hosted app or an installer.
-Source access for a review can be arranged directly with me.
+This repository is the public introduction and policy reference. You can now
+[inspect and run the self-hosted source](https://github.com/R3dTh3Ging3r-s-Creations/Ezra-Mail-Self-Hosted)
+with your own accounts and local model. Start with its
+[installation guide](https://github.com/R3dTh3Ging3r-s-Creations/Ezra-Mail-Self-Hosted/blob/main/docs/DEPLOYMENT.md).
+That source release is experimental and licensed under AGPL-3.0-only; it is not a
+hosted app or a generally supported consumer or business release.
 
 **Considering a work account?** Please check with your organization first. Personal
 account use does not establish workplace approval. The
