@@ -54,6 +54,25 @@ The project owner does not operate a shared hosted mailbox service. The person
 running an installation is responsible for its access controls, configuration,
 data retention, backups, and connected services.
 
+## Personal conversation plugin
+
+The optional MCP integration sends requested tool results from your privately
+hosted Ezra installation through your own OpenAI Secure MCP Tunnel to ChatGPT.
+Mail, calendar and task content returned to a conversation therefore reaches
+OpenAI; it is not local-only processing. No shared maintainer-hosted service is
+provided. Use your own private registration, scoped key and provider accounts.
+
+Current advanced setup requires an operator-configured Gmail/Microsoft account
+pair, exact-resource grants and installation-specific provider qualification.
+Microsoft event deletion uses a fresh-read check with a non-atomic external-edit
+race; its successful test does not establish atomic revision protection.
+
+Read the [capability matrix and setup limits](https://github.com/R3dTh3Ging3r-s-Creations/Ezra-Mail-Self-Hosted/blob/main/docs/PERSONAL_PLUGIN.md)
+before using the [Linux bridge source](https://github.com/R3dTh3Ging3r-s-Creations/Ezra-Mail-Self-Hosted/tree/main/plugins/ezra-mail/linux).
+Keys expire and need renewal; the server runtime does not depend on an open
+Windows workstation or Codex session. Guided setup and broader lifecycle
+acceptance remain work in progress.
+
 ## Optional notifications
 
 Browser notifications, Web Push, and Telegram are optional. Quiet hours and

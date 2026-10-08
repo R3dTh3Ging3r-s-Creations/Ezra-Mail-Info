@@ -75,6 +75,25 @@ channels involve their own services.
 
 For the details, see [how it works, permissions, and data handling](docs/HOW_IT_WORKS.md).
 
+## Use it from your conversation
+
+The personal integration now lets my main ChatGPT conversation work with selected
+personal email, calendars and Microsoft To Do. In the October 8 acceptance run,
+Gmail and Hotmail calendar creation, title edits and deletion passed, along with
+To Do creation, editing and completion. Mail reads and search also passed, with
+local-index and Gmail-snippet limitations documented.
+
+You can [get the app and advanced plugin source](https://github.com/R3dTh3Ging3r-s-Creations/Ezra-Mail-Self-Hosted)
+and read the [personal plugin setup guide](https://github.com/R3dTh3Ging3r-s-Creations/Ezra-Mail-Self-Hosted/blob/main/docs/PERSONAL_PLUGIN.md).
+Use your own server, accounts, keys and private tunnel. This is advanced
+self-hosted source, not a one-click public plugin or access to my installation;
+guided setup and fresh-install qualification are still on the roadmap.
+
+Calendar invitations, To Do collaboration and contact creation/updates are planned.
+Plugin email sending, drafts, organization and task/list removal are not exposed.
+The [roadmap](https://github.com/R3dTh3Ging3r-s-Creations/Ezra-Mail-Self-Hosted/blob/main/docs/EZRA_MAIL_ROADMAP.md)
+separates these from what has been tested.
+
 ## Where the project stands
 
 Ezra is at **v0.8.2** and under active development. I use it with personal accounts;
